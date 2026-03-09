@@ -53,6 +53,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 # -----------------------------
 # HELPERS
 # -----------------------------
@@ -232,28 +233,41 @@ if page == "Dashboard":
     st.divider()
 
     left, right = st.columns(2)
-
+    
     with left:
         st.subheader("Expenses by Category")
+
         expense_category = (
             expense_df.groupby("CATEGORY", as_index=False)["AMOUNT"]
             .sum()
             .sort_values("AMOUNT", ascending=False)
-        )
+    )
+
         st.dataframe(expense_category, use_container_width=True)
 
         if not expense_category.empty:
-            fig_expense = px.pie(
-                expense_category,
-                names="CATEGORY",
-                values="AMOUNT",
-                title="Expense Share by Category"
-            )
-            fig_expense.update_traces(
-                texttemplate="UGX %{value:,.0f}",
-                textposition="inside"
-            )
-            st.plotly_chart(fig_expense, use_container_width=True)
+
+            fig_expense = px.bar(
+            expense_category,
+                x="CATEGORY",
+                y="AMOUNT",
+                title="Expenses by Category",
+                text="AMOUNT"
+        )
+
+        fig_expense.update_traces(
+            texttemplate="UGX %{text:,.0f}",
+            textposition="outside"
+        )
+
+        fig_expense.update_layout(
+            xaxis_title="Category",
+            yaxis_title="Amount (UGX)"
+        )
+
+        st.plotly_chart(fig_expense, use_container_width=True)
+
+
 
     with right:
         st.subheader("Income by Category")
