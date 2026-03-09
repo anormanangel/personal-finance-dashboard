@@ -183,7 +183,7 @@ avg_transaction = filtered_df["AMOUNT"].mean() if total_transactions > 0 else 0
 # PAGE 1: DASHBOARD
 # -----------------------------
 if page == "Dashboard":
-    st.title("Personal Income & Expense Dashboard")
+    st.title("Income & Expense Dashboard")
     st.markdown("<br>", unsafe_allow_html=True)
 
     st.markdown(
