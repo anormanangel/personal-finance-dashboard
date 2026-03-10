@@ -135,7 +135,7 @@ if page == "Dashboard":
     """,
     unsafe_allow_html=True
 )
-    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br><br><br>", unsafe_allow_html=True)
 
     c1, c2, c3, c4 = st.columns(4)
 
