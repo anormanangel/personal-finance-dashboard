@@ -15,7 +15,6 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    
 
     .kpi-card:hover {
         box-shadow: 0 6px 18px rgba(0,0,0,0.12);
@@ -53,7 +52,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 # -----------------------------
 # HELPERS
 # -----------------------------
@@ -82,18 +80,8 @@ def render_kpi_card(title, value, caption, icon, tooltip):
 
 
 MONTH_ORDER = {
-    "January": 1,
-    "February": 2,
-    "March": 3,
-    "April": 4,
-    "May": 5,
-    "June": 6,
-    "July": 7,
-    "August": 8,
-    "September": 9,
-    "October": 10,
-    "November": 11,
-    "December": 12
+    "January":1,"February":2,"March":3,"April":4,"May":5,"June":6,
+    "July":7,"August":8,"September":9,"October":10,"November":11,"December":12
 }
 
 # -----------------------------
@@ -105,21 +93,14 @@ def load_data():
 
     df.columns = [col.strip().upper() for col in df.columns]
 
-    expected_cols = ["DATE", "MONTH", "CATEGORY", "TYPE", "DESCRIPTION", "AMOUNT"]
-    missing_cols = [col for col in expected_cols if col not in df.columns]
+    expected_cols = ["DATE","MONTH","CATEGORY","TYPE","DESCRIPTION","AMOUNT"]
+    missing_cols = [c for c in expected_cols if c not in df.columns]
     if missing_cols:
         st.error(f"Missing columns in CSV: {missing_cols}")
         st.stop()
 
-    df["DATE"] = df["DATE"].astype(str).str.strip()
-    df["MONTH"] = df["MONTH"].astype(str).str.strip()
-    df["CATEGORY"] = df["CATEGORY"].astype(str).str.strip()
-    df["TYPE"] = df["TYPE"].astype(str).str.strip()
-    df["DESCRIPTION"] = df["DESCRIPTION"].astype(str).str.strip()
-
     df["AMOUNT"] = (
-        df["AMOUNT"]
-        .astype(str)
+        df["AMOUNT"].astype(str)
         .str.replace(",", "", regex=False)
         .str.strip()
     )
@@ -136,6 +117,7 @@ df = load_data()
 # SIDEBAR
 # -----------------------------
 st.sidebar.title("Finance Dashboard")
+
 page = st.sidebar.radio(
     "Navigate",
     ["Dashboard", "Transactions Summary"]
@@ -145,8 +127,9 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("Filters")
 
 month_options = ["All"] + [
-    m for m in sorted(df["MONTH"].dropna().unique(), key=lambda x: MONTH_ORDER.get(x, 99))
+    m for m in sorted(df["MONTH"].dropna().unique(), key=lambda x: MONTH_ORDER.get(x,99))
 ]
+
 type_options = ["All"] + sorted(df["TYPE"].dropna().unique().tolist())
 category_options = ["All"] + sorted(df["CATEGORY"].dropna().unique().tolist())
 
@@ -184,218 +167,186 @@ avg_transaction = filtered_df["AMOUNT"].mean() if total_transactions > 0 else 0
 # PAGE 1: DASHBOARD
 # -----------------------------
 if page == "Dashboard":
+
     st.title("Income & Expense Dashboard")
-    st.markdown("<br>", unsafe_allow_html=True)
 
     st.markdown(
         "<div class='section-title'>💼 Financial Overview</div>",
         unsafe_allow_html=True
     )
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1,c2,c3,c4 = st.columns(4)
 
     with c1:
-        render_kpi_card(
-            title="Total Income",
-            value=f"UGX {total_income:,.0f}",
-            caption="All income in current filtered view",
-            icon="💰",
-            tooltip="Total income amount based on the selected filters."
-        )
+        render_kpi_card("Total Income", f"UGX {total_income:,.0f}",
+                        "All income in current filtered view","💰",
+                        "Total income based on filters")
 
     with c2:
-        render_kpi_card(
-            title="Total Expense",
-            value=f"UGX {total_expense:,.0f}",
-            caption="All expenses in current filtered view",
-            icon="💸",
-            tooltip="Total expense amount based on the selected filters."
-        )
+        render_kpi_card("Total Expense", f"UGX {total_expense:,.0f}",
+                        "All expenses in current filtered view","💸",
+                        "Total expense based on filters")
 
     with c3:
-        render_kpi_card(
-            title="Net Balance",
-            value=f"UGX {net_balance:,.0f}",
-            caption="Income minus expenses",
-            icon="📊",
-            tooltip="Net balance calculated as total income less total expenses."
-        )
+        render_kpi_card("Net Balance", f"UGX {net_balance:,.0f}",
+                        "Income minus expenses","📊",
+                        "Net balance = income - expense")
 
     with c4:
-        render_kpi_card(
-            title="Transactions",
-            value=f"{total_transactions:,}",
-            caption=f"Average amount: UGX {avg_transaction:,.0f}",
-            icon="🧾",
-            tooltip="Count of all visible transactions in the filtered view."
-        )
+        render_kpi_card("Transactions", f"{total_transactions:,}",
+                        f"Average amount: UGX {avg_transaction:,.0f}","🧾",
+                        "Total number of visible transactions")
 
     st.divider()
 
-    left, right = st.columns(2)
-    
+    left,right = st.columns(2)
+
     with left:
+
         st.subheader("Expenses by Category")
 
         expense_category = (
             expense_df.groupby("CATEGORY", as_index=False)["AMOUNT"]
             .sum()
             .sort_values("AMOUNT", ascending=False)
-    )
+        )
 
-        st.dataframe(expense_category, use_container_width=True)
+        st.dataframe(expense_category, width="stretch")
 
         if not expense_category.empty:
 
             fig_expense = px.bar(
-            expense_category,
+                expense_category,
                 x="CATEGORY",
                 y="AMOUNT",
                 title="Expenses by Category",
                 text="AMOUNT"
-        )
+            )
 
-        fig_expense.update_traces(
-            texttemplate="UGX %{text:,.0f}",
-            textposition="outside"
-        )
+            fig_expense.update_traces(
+                texttemplate="UGX %{text:,.0f}",
+                textposition="outside"
+            )
 
-        fig_expense.update_layout(
-            xaxis_title="Category",
-            yaxis_title="Amount (UGX)"
-        )
-
-        st.plotly_chart(fig_expense, use_container_width=True)
-
+            st.plotly_chart(fig_expense, width="stretch")
 
 
     with right:
+
         st.subheader("Income by Category")
+
         income_category = (
             income_df.groupby("CATEGORY", as_index=False)["AMOUNT"]
             .sum()
             .sort_values("AMOUNT", ascending=False)
         )
-        st.dataframe(income_category, use_container_width=True)
+
+        st.dataframe(income_category, width="stretch")
 
         if not income_category.empty:
 
-            # add vertical spacing to align with left chart
-            st.markdown("<br><br><br><br><br>", unsafe_allow_html=True)
             fig_income = px.pie(
                 income_category,
                 names="CATEGORY",
                 values="AMOUNT",
                 title="Income Share by Category"
             )
+
             fig_income.update_traces(
                 texttemplate="UGX %{value:,.0f}",
                 textposition="inside"
             )
-            st.plotly_chart(fig_income, use_container_width=True)
+
+            st.plotly_chart(fig_income, width="stretch")
 
     st.divider()
 
     st.subheader("Monthly Totals")
+
     month_summary = (
-        filtered_df.groupby(["MONTH_NUM", "MONTH", "TYPE"], as_index=False)["AMOUNT"]
+        filtered_df.groupby(["MONTH_NUM","MONTH","TYPE"], as_index=False)["AMOUNT"]
         .sum()
-        .sort_values(["MONTH_NUM", "TYPE"])
+        .sort_values(["MONTH_NUM","TYPE"])
     )
+
     if not month_summary.empty:
-        pivot_month = month_summary.pivot(index="MONTH", columns="TYPE", values="AMOUNT").fillna(0)
-        month_ordered = [m for m in sorted(pivot_month.index, key=lambda x: MONTH_ORDER.get(x, 99))]
+
+        pivot_month = (
+            month_summary
+            .pivot(index="MONTH", columns="TYPE", values="AMOUNT")
+            .fillna(0)
+        )
+
+        month_ordered = sorted(pivot_month.index, key=lambda x: MONTH_ORDER.get(x,99))
         pivot_month = pivot_month.loc[month_ordered]
-        st.dataframe(pivot_month, use_container_width=True)
+
+        st.dataframe(pivot_month, width="stretch")
         st.bar_chart(pivot_month)
 
 # -----------------------------
-# PAGE 2: TRANSACTIONS SUMMARY
+# PAGE 2
 # -----------------------------
 elif page == "Transactions Summary":
+
     st.title("Transactions Summary")
-    st.markdown("<br>", unsafe_allow_html=True)
 
-    st.markdown(
-        "<div class='section-title'>Summary Indicators</div>",
-        unsafe_allow_html=True
-    )
+    t1,t2,t3 = st.columns(3)
 
-    t1, t2, t3 = st.columns(3)
+    t1.metric("Income", f"UGX {total_income:,.0f}")
+    t2.metric("Expense", f"UGX {total_expense:,.0f}")
+    t3.metric("Net Balance", f"UGX {net_balance:,.0f}")
 
-    with t1:
-        render_kpi_card(
-            title="Income",
-            value=f"UGX {total_income:,.0f}",
-            caption="Visible income total",
-            icon="💰",
-            tooltip="Total income in the current filtered summary."
-        )
-
-    with t2:
-        render_kpi_card(
-            title="Expense",
-            value=f"UGX {total_expense:,.0f}",
-            caption="Visible expense total",
-            icon="💸",
-            tooltip="Total expenses in the current filtered summary."
-        )
-
-    with t3:
-        render_kpi_card(
-            title="Net Balance",
-            value=f"UGX {net_balance:,.0f}",
-            caption="Visible balance after expenses",
-            icon="📊",
-            tooltip="Net balance in the current filtered summary."
-        )
-
-    st.markdown("<br>", unsafe_allow_html=True)
     st.divider()
 
     group_by = st.selectbox(
         "Drill down by",
-        ["Category", "Type", "Month"]
+        ["Category","Type","Month"]
     )
 
     if group_by == "Category":
+
         summary = (
             filtered_df.groupby("CATEGORY")
-            .agg(
-                NUMBER_OF_TRANSACTIONS=("AMOUNT", "count"),
-                TOTAL_AMOUNT=("AMOUNT", "sum")
-            )
+            .agg(NUMBER_OF_TRANSACTIONS=("AMOUNT","count"),
+                 TOTAL_AMOUNT=("AMOUNT","sum"))
             .reset_index()
             .sort_values("TOTAL_AMOUNT", ascending=False)
         )
-        st.dataframe(summary, use_container_width=True)
+
+        st.dataframe(summary, width="stretch")
+
         if not summary.empty:
             st.bar_chart(summary.set_index("CATEGORY")["TOTAL_AMOUNT"])
 
     elif group_by == "Type":
+
         summary = (
             filtered_df.groupby("TYPE")
-            .agg(
-                NUMBER_OF_TRANSACTIONS=("AMOUNT", "count"),
-                TOTAL_AMOUNT=("AMOUNT", "sum")
-            )
+            .agg(NUMBER_OF_TRANSACTIONS=("AMOUNT","count"),
+                 TOTAL_AMOUNT=("AMOUNT","sum"))
             .reset_index()
             .sort_values("TOTAL_AMOUNT", ascending=False)
         )
-        st.dataframe(summary, use_container_width=True)
+
+        st.dataframe(summary, width="stretch")
+
         if not summary.empty:
             st.bar_chart(summary.set_index("TYPE")["TOTAL_AMOUNT"])
 
     elif group_by == "Month":
+
         summary = (
-            filtered_df.groupby(["MONTH_NUM", "MONTH"])
-            .agg(
-                NUMBER_OF_TRANSACTIONS=("AMOUNT", "count"),
-                TOTAL_AMOUNT=("AMOUNT", "sum")
-            )
+            filtered_df.groupby(["MONTH_NUM","MONTH"])
+            .agg(NUMBER_OF_TRANSACTIONS=("AMOUNT","count"),
+                 TOTAL_AMOUNT=("AMOUNT","sum"))
             .reset_index()
             .sort_values("MONTH_NUM")
         )
-        st.dataframe(summary[["MONTH", "NUMBER_OF_TRANSACTIONS", "TOTAL_AMOUNT"]], use_container_width=True)
+
+        st.dataframe(
+            summary[["MONTH","NUMBER_OF_TRANSACTIONS","TOTAL_AMOUNT"]],
+            width="stretch"
+        )
+
         if not summary.empty:
             st.bar_chart(summary.set_index("MONTH")["TOTAL_AMOUNT"])
