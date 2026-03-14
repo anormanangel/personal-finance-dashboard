@@ -82,7 +82,7 @@ df = load_data()
 st.sidebar.title("Finance Dashboard")
 page = st.sidebar.radio(
     "Navigate",
-    ["Dashboard", "Transactions Summary"]
+    ["Income & Expenses", "Transactions Summary"]
 )
 
 st.sidebar.markdown("---")
@@ -127,17 +127,17 @@ avg_transaction = filtered_df["AMOUNT"].mean() if total_transactions > 0 else 0
 # -----------------------------
 # PAGE 1: DASHBOARD
 # -----------------------------
-if page == "Dashboard":
+if page == "Income & Expenses":
 
     st.markdown(
     """
-    <h1 style='font-size:60px; font-weight:700; margin-bottom:0px;'>
+    <h1 style='font-size:70px; font-weight:700; margin-bottom:0px;'>
     Income & Expense Dashboard
     </h1>
     """,
     unsafe_allow_html=True
 )
-    st.markdown("<br><br><br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
 
     c1, c2, c3, c4 = st.columns(4)
 
@@ -170,27 +170,22 @@ if page == "Dashboard":
             .sort_values("AMOUNT", ascending=False)
         )
 
-        st.dataframe(expense_category, width="stretch")
-
         if not expense_category.empty:
             fig_expense = px.bar(
                 expense_category,
                 x="CATEGORY",
                 y="AMOUNT",
-                title="Expenses by Category",
+                #title="Expenses by Category",
                 text="AMOUNT"
             )
-
             fig_expense.update_traces(
                 texttemplate="UGX %{text:,.0f}",
                 textposition="outside"
             )
-
             fig_expense.update_layout(
                 xaxis_title="Category",
                 yaxis_title="Amount (UGX)"
             )
-
             st.plotly_chart(fig_expense, width="stretch")
 
     with right:
@@ -202,23 +197,17 @@ if page == "Dashboard":
             .sort_values("AMOUNT", ascending=False)
         )
 
-        st.dataframe(income_category, width="stretch")
-
         if not income_category.empty:
-            # push chart down to align with bar chart on left
-            st.markdown("<br><br><br><br><br>", unsafe_allow_html=True)
             fig_income = px.pie(
                 income_category,
                 names="CATEGORY",
                 values="AMOUNT",
-                title="Income Share by Category"
+                #title="Income Share by Category"
             )
-
             fig_income.update_traces(
                 texttemplate="UGX %{value:,.0f}",
                 textposition="inside"
             )
-
             st.plotly_chart(fig_income, width="stretch")
 
     st.divider()
@@ -234,8 +223,6 @@ if page == "Dashboard":
         pivot_month = month_summary.pivot(index="MONTH", columns="TYPE", values="AMOUNT").fillna(0)
         month_ordered = [m for m in sorted(pivot_month.index, key=lambda x: MONTH_ORDER.get(x, 99))]
         pivot_month = pivot_month.loc[month_ordered]
-
-        st.dataframe(pivot_month, width="stretch")
 
         # Grouped bar chart — one Expense bar and one Income bar side by side per month
         fig_monthly = go.Figure()
@@ -306,7 +293,12 @@ if page == "Dashboard":
 # PAGE 2: TRANSACTIONS SUMMARY
 # -----------------------------
 elif page == "Transactions Summary":
-    st.title("Transactions Summary")
+    st.markdown("""
+    <h1 style='font-size:70px; font-weight:700; margin-bottom:0px;'>
+    Transactions Summary
+    </h1>
+""", unsafe_allow_html=True)
+    #st.title("Transactions Summary")
     st.markdown("<br>", unsafe_allow_html=True)
 
     t1, t2, t3 = st.columns(3)
