@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.set_page_config(
-    page_title="Income & Expense Dashboard",
+    page_title="Finance Dashbaord",
     layout="wide",
     page_icon="💰",
     initial_sidebar_state="expanded"
