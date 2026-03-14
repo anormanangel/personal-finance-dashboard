@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 from io import BytesIO
 import plotly.express as px
+import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Income & Expense Dashboard",
@@ -235,7 +236,45 @@ if page == "Dashboard":
         pivot_month = pivot_month.loc[month_ordered]
 
         st.dataframe(pivot_month, width="stretch")
-        st.bar_chart(pivot_month, width="stretch")
+
+        # Grouped bar chart — one Expense bar and one Income bar side by side per month
+        fig_monthly = go.Figure()
+
+        if "Expense" in pivot_month.columns:
+            fig_monthly.add_trace(go.Bar(
+                name="Expense",
+                x=pivot_month.index,
+                y=pivot_month["Expense"],
+                marker_color="#EF553B",
+                text=pivot_month["Expense"],
+                texttemplate="UGX %{text:,.0f}",
+                textposition="outside"
+            ))
+
+        if "Income" in pivot_month.columns:
+            fig_monthly.add_trace(go.Bar(
+                name="Income",
+                x=pivot_month.index,
+                y=pivot_month["Income"],
+                marker_color="#00CC96",
+                text=pivot_month["Income"],
+                texttemplate="UGX %{text:,.0f}",
+                textposition="outside"
+            ))
+
+        fig_monthly.update_layout(
+            barmode="group",
+            xaxis_title="Month",
+            yaxis_title="Amount (UGX)",
+            legend_title="Type",
+            plot_bgcolor="rgba(0,0,0,0)",
+            paper_bgcolor="rgba(0,0,0,0)",
+            font=dict(color="white"),
+            xaxis=dict(showgrid=False),
+            yaxis=dict(gridcolor="rgba(255,255,255,0.1)"),
+        )
+
+        st.plotly_chart(fig_monthly, use_container_width=True)
 
     st.divider()
 
