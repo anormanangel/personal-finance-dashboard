@@ -3,6 +3,7 @@ import streamlit as st
 from io import BytesIO
 import plotly.express as px
 import plotly.graph_objects as go
+import sqlite3
 
 st.set_page_config(
     page_title="Finance Dashbaord",
@@ -43,32 +44,43 @@ MONTH_ORDER = {
 # -----------------------------
 # LOAD DATA
 # -----------------------------
+#@st.cache_data
+# def load_data():
+#     df = pd.read_csv("income_expense.csv")
+
+#     df.columns = [col.strip().upper() for col in df.columns]
+
+#     expected_cols = ["DATE", "MONTH", "CATEGORY", "TYPE", "DESCRIPTION", "AMOUNT"]
+#     missing_cols = [col for col in expected_cols if col not in df.columns]
+#     if missing_cols:
+#         st.error(f"Missing columns in CSV: {missing_cols}")
+#         st.stop()
+
+#     df["DATE"] = df["DATE"].astype(str).str.strip()
+#     df["MONTH"] = df["MONTH"].astype(str).str.strip()
+#     df["CATEGORY"] = df["CATEGORY"].astype(str).str.strip()
+#     df["TYPE"] = df["TYPE"].astype(str).str.strip()
+#     df["DESCRIPTION"] = df["DESCRIPTION"].astype(str).str.strip()
+
+#     df["AMOUNT"] = (
+#         df["AMOUNT"]
+#         .astype(str)
+#         .str.replace(",", "", regex=False)
+#         .str.strip()
+#     )
+#     df["AMOUNT"] = pd.to_numeric(df["AMOUNT"], errors="coerce").fillna(0)
+
+#     df["MONTH_NUM"] = df["MONTH"].map(MONTH_ORDER)
+
+#     return df
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("income_expense.csv")
+    conn = sqlite3.connect("finance.db")
+    df   = pd.read_sql("SELECT * FROM transactions", conn)
+    conn.close()
 
     df.columns = [col.strip().upper() for col in df.columns]
-
-    expected_cols = ["DATE", "MONTH", "CATEGORY", "TYPE", "DESCRIPTION", "AMOUNT"]
-    missing_cols = [col for col in expected_cols if col not in df.columns]
-    if missing_cols:
-        st.error(f"Missing columns in CSV: {missing_cols}")
-        st.stop()
-
-    df["DATE"] = df["DATE"].astype(str).str.strip()
-    df["MONTH"] = df["MONTH"].astype(str).str.strip()
-    df["CATEGORY"] = df["CATEGORY"].astype(str).str.strip()
-    df["TYPE"] = df["TYPE"].astype(str).str.strip()
-    df["DESCRIPTION"] = df["DESCRIPTION"].astype(str).str.strip()
-
-    df["AMOUNT"] = (
-        df["AMOUNT"]
-        .astype(str)
-        .str.replace(",", "", regex=False)
-        .str.strip()
-    )
-    df["AMOUNT"] = pd.to_numeric(df["AMOUNT"], errors="coerce").fillna(0)
-
     df["MONTH_NUM"] = df["MONTH"].map(MONTH_ORDER)
 
     return df
