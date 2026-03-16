@@ -141,7 +141,7 @@ git push origin main
 
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Click **New app**
-4. Select your repository, branch (`main`), and main file (`dashboard.py`)
+4. Select your repository, branch (`main`), and main file (`app.py`)
 5. Click **Deploy**
 
 Streamlit Cloud will automatically redeploy every time you push to `main`.
