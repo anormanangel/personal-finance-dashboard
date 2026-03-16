@@ -1,6 +1,10 @@
 # 💰 Personal Finance Dashboard
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://income-expense-dashboard.streamlit.app/)
+
 A full end-to-end personal finance data engineering project — from raw CSV data through a local data pipeline to an interactive Streamlit dashboard.
+
+🔗 **Live Demo:** [income-expense-dashboard.streamlit.app](https://income-expense-dashboard.streamlit.app/)
 
 ---
 
@@ -34,7 +38,7 @@ income_expense.csv          ← Source (raw CSV)
         │
         ▼
 ┌─────────────────────┐
-│     DASHBOARD       │  dashboard.py (Streamlit)
+│     DASHBOARD       │  app.py (Streamlit)
 │                     │  Reads from transactions table
 └─────────────────────┘
 ```
@@ -67,7 +71,7 @@ personal-finance-dashboard/
 │   ├── 03_transform.py         ← Raw → Clean + Views
 │   └── run_pipeline.py         ← Runs all 3 steps
 │
-├── dashboard.py                ← Streamlit app
+├── app.py                ← Streamlit app
 ├── income_expense.csv          ← Source data
 ├── finance.db                  ← SQLite data warehouse
 ├── requirements.txt
@@ -123,7 +127,7 @@ PIPELINE FINISHED SUCCESSFULLY
 
 ### 4. Run the dashboard
 ```bash
-streamlit run dashboard.py
+streamlit run app.py
 ```
 
 Open your browser at `http://localhost:8501`
@@ -143,6 +147,8 @@ git push origin main
 3. Click **New app**
 4. Select your repository, branch (`main`), and main file (`app.py`)
 5. Click **Deploy**
+
+🔗 **Live App:** [income-expense-dashboard.streamlit.app](https://income-expense-dashboard.streamlit.app/)
 
 Streamlit Cloud will automatically redeploy every time you push to `main`.
 
