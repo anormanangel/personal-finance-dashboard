@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 
 # CONFIG
 SOURCE_FILE = os.path.join(os.path.dirname(__file__), "..", "income_expense.csv")
-LAKE_PATH   = os.path.join(os.path.dirname(__file__), "..", "data_lake", "raw", "transactions", "2023")
+LAKE_PATH   = os.path.join(os.path.dirname(__file__), "..", "data_lake", "raw", "transactions", "2026")
 
 def ingest():
     logging.info("INGEST: Reading local CSV file...")

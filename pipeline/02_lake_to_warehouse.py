@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 # CONFIG
-LAKE_PATH  = os.path.join(os.path.dirname(__file__), "..", "data_lake", "raw", "transactions", "2023")
+LAKE_PATH  = os.path.join(os.path.dirname(__file__), "..", "data_lake", "raw", "transactions", "2026")
 DB_PATH    = os.path.join(os.path.dirname(__file__), "..", "finance.db")
 TABLE_NAME = "raw_transactions"
 
