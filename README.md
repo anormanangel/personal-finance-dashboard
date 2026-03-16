@@ -38,7 +38,7 @@ income_expense.csv          ← Source (raw CSV)
         │
         ▼
 ┌─────────────────────┐
-│     DASHBOARD       │  app.py (Streamlit)
+│     DASHBOARD       │  dashboard.py (Streamlit)
 │                     │  Reads from transactions table
 └─────────────────────┘
 ```
@@ -71,7 +71,7 @@ personal-finance-dashboard/
 │   ├── 03_transform.py         ← Raw → Clean + Views
 │   └── run_pipeline.py         ← Runs all 3 steps
 │
-├── app.py                ← Streamlit app
+├── dashboard.py                ← Streamlit app
 ├── income_expense.csv          ← Source data
 ├── finance.db                  ← SQLite data warehouse
 ├── requirements.txt
@@ -127,7 +127,7 @@ PIPELINE FINISHED SUCCESSFULLY
 
 ### 4. Run the dashboard
 ```bash
-streamlit run app.py
+streamlit run dashboard.py
 ```
 
 Open your browser at `http://localhost:8501`
@@ -145,7 +145,7 @@ git push origin main
 
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Click **New app**
-4. Select your repository, branch (`main`), and main file (`app.py`)
+4. Select your repository, branch (`main`), and main file (`dashboard.py`)
 5. Click **Deploy**
 
 🔗 **Live App:** [income-expense-dashboard.streamlit.app](https://income-expense-dashboard.streamlit.app/)
