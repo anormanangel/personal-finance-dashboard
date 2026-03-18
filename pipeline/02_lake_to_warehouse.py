@@ -44,8 +44,8 @@ def lake_to_warehouse():
         )
     """)
 
-    cursor.execute(f"DELETE FROM {TABLE_NAME}")
-    df.to_sql(TABLE_NAME, conn, if_exists="append", index=False)
+    cursor.execute(f"DROP TABLE IF EXISTS {TABLE_NAME}")
+    df.to_sql(TABLE_NAME, conn, if_exists="replace", index=False)
     conn.commit()
 
     row_count = cursor.execute(f"SELECT COUNT(*) FROM {TABLE_NAME}").fetchone()[0]
