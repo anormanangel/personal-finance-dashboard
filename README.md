@@ -23,7 +23,7 @@ income_expense.csv          ← Source (raw CSV)
         │
         ▼
 ┌─────────────────────┐
-│     DATA LAKE       │  data_lake/raw/transactions/2023/
+│     DATA LAKE       │  data_lake/raw/transactions/2026/
 │  (local folder)     │  Timestamped raw CSV files stored as-is
 └─────────────────────┘
         │
