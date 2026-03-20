@@ -1,6 +1,6 @@
 # 💰 Personal Finance Dashboard
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://income-expense-dashboard.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://personal-finance-2026.streamlit.app/)
 
 A full end-to-end personal finance data engineering project — from raw CSV data through a local data pipeline to an interactive Streamlit dashboard.
 
