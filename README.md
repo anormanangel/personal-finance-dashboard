@@ -4,7 +4,7 @@
 
 A full end-to-end personal finance data engineering project — from raw CSV data through a local data pipeline to an interactive Streamlit dashboard.
 
-🔗 **Live Demo:** [income-expense-dashboard.streamlit.app](https://income-expense-dashboard.streamlit.app/)
+🔗 **Live Demo:** [https://personal-finance-2026.streamlit.app/](https://personal-finance-2026.streamlit.app/)
 
 ---
 
@@ -148,7 +148,7 @@ git push origin main
 4. Select your repository, branch (`main`), and main file (`dashboard.py`)
 5. Click **Deploy**
 
-🔗 **Live App:** [income-expense-dashboard.streamlit.app](https://personal-finance-2026.streamlit.app/)
+🔗 **Live App:** [https://personal-finance-2026.streamlit.app/](https://personal-finance-2026.streamlit.app/)
 
 Streamlit Cloud will automatically redeploy every time you push to `main`.
 
