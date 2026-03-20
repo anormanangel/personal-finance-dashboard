@@ -62,7 +62,7 @@ personal-finance-dashboard/
 ├── data_lake/
 │   └── raw/
 │       └── transactions/
-│           └── 2023/
+│           └── 2026/
 │               └── Input_20260316_100914.csv   ← auto-created by pipeline
 │
 ├── pipeline/
