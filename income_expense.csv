@@ -1,344 +1,350 @@
-Date,Month,Category,Type,Description,Amount
-Jan-01,January,Miscellaneous,Expense,Mama,"31,000"
-Jan-01,January,Internet,Expense,Data,"6,000"
-Jan-02,January,Groceries,Expense,Groceries,"15,000"
-Jan-02,January,Internet,Expense,Data,"6,000"
-Jan-02,January,Transport,Expense,Boda,"15,000"
-Jan-02,January,Miscellaneous,Expense,Visit,"13,000"
-Jan-03,January,Utilities,Expense,Boda,"16,000"
-Jan-03,January,Transport,Expense,Taxi to Lira,"33,000"
-Jan-03,January,Transport,Expense,Lunch,"12,000"
-Jan-04,January,Condominium,Expense,Lodging,"30,000"
-Jan-04,January,Transport,Expense,Taxi to Dokolo,"8,000"
-Jan-04,January,Transport,Expense,Boda,"3,000"
-Jan-04,January,Miscellaneous,Expense,Princess,"19,000"
-Jan-04,January,Miscellaneous,Expense,Home,"33,000"
-Jan-04,January,Miscellaneous,Expense,Holiver,"35,000"
-Jan-04,January,Miscellaneous,Expense,Mama,"10,500"
-Jan-04,January,Miscellaneous,Expense,Mama,"17,000"
-Jan-05,January,Miscellaneous,Expense,Mama,"205,000"
-Jan-05,January,Miscellaneous,Expense,Grinding Gnuts,"10,000"
-Jan-05,January,Repayment,Income,Junior,"100,000"
-Jan-05,January,Miscellaneous,Expense,Precillah,"20,000"
-Jan-06,January,Transport,Expense,Taxi to Lira,"6,000"
-Jan-06,January,Miscellaneous,Expense,Princess,"25,500"
-Jan-06,January,Base Salary,Income,EC Salary,"1,398,000"
-Jan-06,January,Base Salary,Income,EC Allowence,"720,000"
-Jan-06,January,Dining out,Expense,Breakfast & Lunch,"24,000"
-Jan-06,January,Transport,Expense,Boda,"5,000"
-Jan-06,January,Miscellaneous,Expense,Fruits for Mama,"17,500"
-Jan-07,January,Miscellaneous,Expense,Omogo Nation Savings,"101,000"
-Jan-07,January,Miscellaneous,Expense,Faridah,"25,500"
-Jan-07,January,Miscellaneous,Expense,Mama,"20,000"
-Jan-07,January,Miscellaneous,Expense,Broker,"20,000"
-Jan-07,January,Transport,Expense,Boda,"11,000"
-Jan-07,January,Transport,Expense,Breakfast,"10,000"
-Jan-07,January,Internet,Expense,Data,"10,000"
-Jan-07,January,Dining out,Expense,Dinner,"4,000"
-Jan-08,January,Condominium,Expense,Lodging,"50,000"
-Jan-08,January,Transport,Expense,Boda,"6,000"
-Jan-08,January,Dining out,Expense,Breakfast,"7,000"
-Jan-08,January,Dining out,Expense,Lunch & Dinner,"11,500"
-Jan-08,January,Health,Expense,Shaving,"5,000"
-Jan-08,January,Transport,Expense,Uber,"30,000"
-Jan-09,January,Base Salary,Income,EC Allowence,"620,000"
-Jan-09,January,Miscellaneous,Expense,Joanita Cash,"250,000"
-Jan-09,January,Miscellaneous,Expense,Joanita Meds,"6,500"
-Jan-09,January,Groceries,Expense,Groceries,"43,000"
-Jan-09,January,Health,Expense,Washing,"10,000"
-Jan-09,January,Transport,Expense,Boda,"11,000"
-Jan-09,January,Leisure,Expense,Leisure,"23,000"
-Jan-10,January,Miscellaneous,Expense,Weekly Sacco Savings,"100,000"
-Jan-10,January,Transport,Expense,Boda to park,"15,000"
-Jan-10,January,Transport,Expense,Taxi to Lira,"40,000"
-Jan-10,January,Dining out,Expense,Breakfast,"5,000"
-Jan-10,January,Dining out,Expense,Lunch,"5,000"
-Jan-10,January,Dining out,Expense,Dinner,"24,000"
-Jan-10,January,Transport,Expense, Boda to Alebtong,"10,000"
-Jan-10,January,Transport,Expense, Boda ,"7,000"
-Jan-10,January,Health,Expense,Sponge,"3,000"
-Jan-10,January,Dining out,Expense, Water,"4,000"
-Jan-10,January,Utilities,Expense,Electricity,"15,000"
-Jan-10,January,Groceries,Expense,Groceries,"6,000"
-Jan-11,January,Miscellaneous,Expense,Mama,"127,500"
-Jan-11,January,Miscellaneous,Expense,Princess,"103,000"
-Jan-11,January,Transport,Expense,Boda,"4,000"
-Jan-11,January,Internet,Expense,Data,"6,000"
-Jan-11,January,Repayment,Income,Joanita,"21,000"
-Jan-12,January,Repayment,Income,Joanita,"30,000"
-Jan-12,January,Condominium,Expense,Lodging Lira,"50,000"
-Jan-12,January,Transport,Expense,Boda,"4,000"
-Jan-12,January,Dining out,Expense,Breakfast & Water,"8,000"
-Jan-12,January,Utilities,Expense,NWSC Baba,"50,500"
-Jan-12,January,Utilities,Expense,Gas,"45,500"
-Jan-13,January,Leisure,Expense,Data,"5,000"
-Jan-13,January,Transport,Expense,Boda,"3,000"
-Jan-13,January,Dining out,Expense,Breakfast,"5,000"
-Jan-13,January,Groceries,Expense,Groceries,"50,000"
-Jan-13,January,Miscellaneous,Expense,Mahad,"10,000"
-Jan-13,January,Miscellaneous,Expense,Brilliant,"137,000"
-Jan-14,January,Base Salary,Income,NIRA Salary,"480,000"
-Jan-14,January,Condominium,Expense,Lodge Lira,"25,000"
-Jan-14,January,Condominium,Expense,Lodge Alebtong,"30,000"
-Jan-14,January,Dining out,Expense,Breakfast,"5,000"
-Jan-14,January,Transport,Expense,Boda,"5,000"
-Jan-14,January,Dining out,Expense,Lunch,"9,000"
-Jan-15,January,Condominium,Expense,Lodge Lira,"30,000"
-Jan-15,January,Transport,Expense,Boda,"8,000"
-Jan-15,January,Dining out,Expense,Lunch,"5,000"
-Jan-15,January,Dining out,Expense,Water,"2,000"
-Jan-15,January,Health,Expense,Meds,"2,000"
-Jan-15,January,Health,Expense,Hankie,"2,000"
-Jan-16,January,Condominium,Expense,Lodge Lira,"30,000"
-Jan-17,January,Dining out,Expense,Water,"3,000"
-Jan-17,January,Health,Expense,Meds,"2,000"
-Jan-18,January,Internet,Expense,Data,"5,000"
-Jan-18,January,Miscellaneous,Expense,Mercy,"15,000"
-Jan-18,January,Miscellaneous,Expense,Mama,"20,000"
-Jan-18,January,Miscellaneous,Expense,Pinky,"10,000"
-Jan-18,January,Transport,Expense,Boda,"3,000"
-Jan-18,January,Repayment,Income,Brilliant,"132,000"
-Jan-18,January,Miscellaneous,Expense,Oyam Sacco,"50,000"
-Jan-18,January,Miscellaneous,Expense,Joan,"50,000"
-Jan-19,January,Miscellaneous,Expense,Bricks & Transport,"2,080,000"
-Jan-20,January,Miscellaneous,Expense,Kukyala,"1,000,000"
-Jan-20,January,Miscellaneous,Expense,Amuge Precillah,"30,000"
-Jan-20,January,Miscellaneous,Expense,Shalom,"2,000"
-Jan-20,January,Health,Expense,Nail cutter,"2,000"
-Jan-21,January,Miscellaneous,Expense,Baba,"100,000"
-Jan-21,January,Dining out,Expense,Lunch & Dinner,"27,000"
-Jan-21,January,Groceries,Expense,Chicken,"92,000"
-Jan-22,January,Miscellaneous,Expense,Princess,"41,000"
-Jan-22,January,Internet,Expense,Data,"10,000"
-Jan-22,January,Miscellaneous,Expense,Mama,"31,000"
-Jan-23,January,Utilities,Expense,NWSC Naalya,"95,500"
-Jan-23,January,Utilities,Expense,NWSC Mama,"54,500"
-Jan-23,January,Condominium,Expense,Accomodation Alebtong,"50,000"
-Jan-23,January,Groceries,Expense,Mama Charchol ,"39,000"
-Jan-23,January,Miscellaneous,Expense,Visit Sarah,"36,000"
-Jan-24,January,Miscellaneous,Expense,Lorna,"10,000"
-Jan-24,January,Miscellaneous,Expense,Gloria,"5,000"
-Jan-24,January,Miscellaneous,Expense,Aunt Tammy,"25,000"
-Jan-24,January,Miscellaneous,Expense,Weekly Sacco Savings,"50,000"
-Jan-24,January,Miscellaneous,Expense,Kukyala,"600,000"
-Jan-25,January,Dining out,Expense,Lunch,"7,000"
-Jan-26,January,Miscellaneous,Expense,Mama,"400,000"
-Jan-26,January,Miscellaneous,Expense,Isaac,"450,000"
-Jan-26,January,Miscellaneous,Expense,Innocent,"50,000"
-Jan-26,January,Miscellaneous,Expense,Wheetbarrow,"55,000"
-Jan-26,January,Dining out,Expense,Dinner & Car,"18,000"
-Jan-26,January,Internet,Expense,Data,"5,000"
-Jan-27,January,Base Salary,Income,EC Allowence,"300,000"
-Jan-26,January,Condominium,Expense,Accomodation Alebtong,"50,000"
-Jan-27,January,Transport,Expense,Car to Kla,"100,000"
-Jan-28,January,Dining out,Expense,Eats,"5,000"
-Jan-28,January,Miscellaneous,Expense,Amuge Precillah,"4,000"
-Jan-28,January,Dining out,Expense,snacks,"5,000"
-Jan-28,January,Transport,Expense,Boda,"10,000"
-Jan-28,January,Dining out,Expense,Lunch,"26,000"
-Jan-28,January,Miscellaneous,Expense,Kanzu,"160,000"
-Jan-28,January,Miscellaneous,Expense,Shoes,"130,000"
-Jan-28,January,Miscellaneous,Expense,Watch,"110,000"
-Jan-28,January,Health,Expense,Hair,"15,000"
-Jan-28,January,Health,Expense,Nails,"25,000"
-Jan-28,January,Miscellaneous,Expense,Aspire USD Acc,"50,000"
-Jan-28,January,Miscellaneous,Expense,Express Go Card ,"17,000"
-Jan-29,January,Miscellaneous,Expense,Meds for Mama,"402,000"
-Jan-29,January,Miscellaneous,Expense,Mama ,"103,000"
-Jan-29,January,Health,Expense,Teeth ,"100,000"
-Jan-29,January,Dining out,Expense,Phone Repair,"100,000"
-Jan-29,January,Groceries,Expense,Groceries,"34,000"
-Jan-29,January,Transport,Expense,Boda ,"24,000"
-Jan-29,January,Dining out,Expense,Lunch ,"12,000"
-Jan-29,January,Dining out,Expense,Water & juice,"7,000"
-Jan-29,January,Internet,Expense,Data & Airtime ,"7,000"
-Jan-30,January,Internet,Expense,Data & Airtime ,"41,000"
-Jan-30,January,Side Hustle,Income,PITG,"1,750,000"
-Jan-30,January,Bonus,Income,Deo,"100,000"
-Jan-30,January,Bonus,Income,Don,"103,000"
-Jan-30,January,Miscellaneous,Expense,Baba Power Connection,"215,000"
-Jan-30,January,Health,Expense,Toothpaste & Soap,"1,000"
-Jan-30,January,Transport,Expense,Boda ,"10,000"
-Jan-31,January,Bonus,Income,Isaac Contributions,"1,000,000"
-Jan-31,January,Miscellaneous,Expense,Meds for Uncle,"9,000"
-Jan-31,January,Transport,Expense,Boda ,"5,000"
-Jan-31,January,Miscellaneous,Expense,Bride Price,"4,000,000"
-Jan-31,January,Miscellaneous,Expense,Kukyala,"6,235,000"
-Feb-01,February,Transport,Expense,Boda ,"4,000"
-Feb-01,February,Groceries,Expense,Groceries,"10,000"
-Feb-01,February,Miscellaneous,Expense,Jimmy,"100,000"
-Feb-02,February,Transport,Expense,Boda,"12,000"
-Feb-02,February,Utilities,Expense,Bulb,"4,000"
-Feb-02,February,Dining out,Expense,Dinner,"17,000"
-Feb-03,February,Transport,Expense,Boda,"14,000"
-Feb-03,February,Miscellaneous,Expense,Omogo Nation Savings,"100,000"
-Feb-03,January,Side Hustle,Income,Interest from Innocent,"400,000"
-Feb-04,February,Transport,Expense,Boda,"13,000"
-Feb-04,February,Dining out,Expense,Dinner,"17,000"
-Feb-05,February,Transport,Expense,Boda,"13,500"
-Feb-05,February,Groceries,Expense,Groceries,"12,000"
-Feb-03,February,Bonus,Income,James Tumwiine,"100,000"
-Feb-06,February,Transport,Expense,Boda,"14,000"
-Feb-06,February,Dining out,Expense,breakfast & lunch,"2,000"
-Feb-06,February,Miscellaneous,Expense,Mama,"31,000"
-Feb-06,February,Dining out,Expense,Dinner,"63,000"
-Feb-07,February,Dining out,Expense,Dinner,"126,000"
-Feb-07,February,Transport,Expense,Uber,"26,000"
-Feb-07,February,Transport,Expense,Boda,"11,000"
-Feb-07,February,Miscellaneous,Expense,Oyam Sacco,"15,000"
-Feb-07,February,Miscellaneous,Expense,Princess,"12,000"
-Feb-07,February,Internet,Expense,Data,"10,000"
-Feb-08,February,Groceries,Expense,Groceries,"24,000"
-Feb-08,February,Transport,Expense,Boda,"7,500"
-Feb-08,February,Miscellaneous,Expense,Sauti Get Together,"200,000"
-Feb-09,February,Side Hustle,Income,PITG,"1,750,000"
-Feb-09,February,Miscellaneous,Expense,Mama,"128,500"
-Feb-09,February,Transport,Expense,Boda,"18,500"
-Feb-09,February,Groceries,Expense,Groceries,"10,000"
-Feb-09,February,Transport,Expense,Cab,"26,000"
-Feb-10,February,Transport,Expense,Boda,"14,000"
-Feb-10,February,Miscellaneous,Expense,School Fees,"227,250"
-Feb-10,February,Groceries,Expense,Groceries,"10,000"
-Feb-11,February,Transport,Expense,Boda,"15,000"
-Feb-12,February,Transport,Expense,Boda,"15,500"
-Feb-12,February,Groceries,Expense,Groceries,"29,000"
-Feb-13,February,Internet,Expense,Data,"5,000"
-Feb-13,February,Transport,Expense,Boda,"29,000"
-Feb-13,February,Miscellaneous,Expense,Mercy,"21,000"
-Feb-13,February,Health,Expense,Triming Hair,"15,000"
-Feb-14,February,Dining out,Expense,Dinner,"90,000"
-Feb-14,February,Transport,Expense,Boda,"10,000"
-Feb-15,February,Groceries,Expense,Groceries,"16,000"
-Feb-15,February,Transport,Expense,Boda,"7,000"
-Feb-15,February,Internet,Expense,Data,"5,000"
-Feb-16,February,Transport,Expense,Boda,"7,500"
-Feb-16,February,Groceries,Expense,Groceries,"23,000"
-Feb-16,February,Miscellaneous,Expense,Emma Alebtong,"150,000"
-Feb-17,February,Bonus,Income,Ivan,"60,000"
-Feb-17,February,Transport,Expense,Boda,"11,000"
-Feb-17,February,Dining out,Expense,Dinner,"15,000"
-Feb-17,February,Dining out,Expense,Breakfast,"2,000"
-Feb-17,February,Internet,Expense,Data,"5,000"
-Feb-18,February,Repayment,Income,Sarah ,"1,000,000"
-Feb-18,February,Base Salary,Income,NIRA Salary,"920,000"
-Feb-18,February,Miscellaneous,Expense,Sand,"720,000"
-Feb-18,February,Miscellaneous,Expense,Coffee,"200,000"
-Feb-18,February,Health,Expense,SafeBoda to Hospital,"30,000"
-Feb-18,February,Dining out,Expense,Breakfast & Dinner,"3,000"
-Feb-18,February,Transport,Expense,Boda,"12,000"
-Feb-19,February,Miscellaneous,Expense,Sheila School Requirements,"206,000"
-Feb-19,February,Transport,Expense,Boda,"21,000"
-Feb-19,February,Dining out,Expense,Dinner,"40,000"
-Feb-19,February,Health,Expense,Washing,"16,500"
-Feb-19,February,Dining out,Expense,Breakfast ,"2,000"
-Feb-19,February,Utilities,Expense,Bulb,"8,000"
-Feb-19,February,Transport,Expense,Boda,"6,000"
-Feb-20,February,Transport,Expense,Boda,"10,000"
-Feb-20,February,Dining out,Expense,Breakfast + Lunch + Dinner,"22,000"
-Feb-21,February,Repayment,Income,Isaac,"10,000"
-Feb-21,February,Repayment,Income,Joanita,"60,000"
-Feb-21,February,Repayment,Income,Joanita,"40,000"
-Feb-21,February,Repayment,Income,Joanita,"200,000"
-Feb-21,February,Transport,Expense,Boda,"10,000"
-Feb-21,February,Groceries,Expense,Groceries,"44,000"
-Feb-21,February,Miscellaneous,Expense,Jimmy,"100,000"
-Feb-22,February,Groceries,Expense,Groceries,"8,500"
-Feb-22,February,Transport,Expense,Boda,"8,000"
-Feb-22,February,Health,Expense,Cleaning,"5,000"
-Feb-21,February,Investments,Income,Trees,"40,000"
-Feb-23,February,Miscellaneous,Expense,Lucky ,"26,000"
-Feb-23,February,Transport,Expense,Boda,"6,000"
-Feb-23,February,Miscellaneous,Expense,Okello,"5,000"
-Feb-23,February,Base Salary,Income,UCC,"4,100,000"
-Feb-23,February,Miscellaneous,Expense,Jireh,"103,000"
-Feb-23,February,Miscellaneous,Expense,Mamito,"31,500"
-Feb-24,February,Transport,Expense,Boda,"12,500"
-Feb-24,February,Dining out,Expense,Breakfast + Dinner,"6,000"
-Feb-24,February,Miscellaneous,Expense,MM + Bank harges,"9,000"
-Feb-24,February,Transport,Expense,Boda,"6,000"
-Feb-25,February,Transport,Expense,Boda,"15,000"
-Feb-25,February,Dining out,Expense,Breakfast + Dinner,"15,000"
-Feb-25,February,Health,Expense,Work out attair,"45,000"
-Feb-26,February,Internet,Expense,internet,"5,000"
-Feb-27,February,Side Hustle,Income,Interest from Innocent,"400,000"
-Feb-27,February,Miscellaneous,Expense,Joanita Loan,"5,000,000"
-Feb-27,February,Condominium,Expense,Rent Feb,"400,000"
-Feb-27,February,Miscellaneous,Expense,Princess Allowence,"200,000"
-Feb-27,February,Miscellaneous,Expense,Brenda refund,"200,000"
-Feb-27,February,Miscellaneous,Expense,Oyam Sacco,"200,000"
-Feb-27,February,Miscellaneous,Expense,"Mahad, Tony Brenda","30,000"
-Feb-27,February,Transport,Expense,Boda,"15,000"
-Feb-27,February,Internet,Expense,internet,"6,000"
-Feb-28,February,Dining out,Expense,Lunch,"30,000"
-Mar-01,March,Groceries,Expense,Groceries,"30,000"
-Mar-01,March,Transport,Expense,Boda,"10,000"
-Mar-01,March,Health,Expense,Shaving,"10,000"
-Mar-01,March,Miscellaneous,Expense,Bricks,"165,000"
-Mar-02,March,Groceries,Expense,Groceries,"51,000"
-Mar-02,March,Transport,Expense,Boda,"21,000"
-Mar-03,March,Base Salary,Income,Arreas,"2,796,000"
-Mar-03,March,Miscellaneous,Expense,Sauti Stamp,"45,000"
-Mar-03,March,Transport,Expense,Boda,"15,000"
-Mar-04,March,Dining out,Expense,Lunch for for Princess,"50,000"
-Mar-04,March,Miscellaneous,Expense,Brenda refund,"9,500"
-Mar-04,March,Miscellaneous,Expense,Musa,"10,500"
-Mar-04,March,Transport,Expense,Boda,"17,000"
-Mar-05,March,Transport,Expense,Boda,"14,000"
-Mar-06,March,Utilities,Expense,Electricity,"16,000"
-Mar-06,March,Transport,Expense,Boda,"17,000"
-Mar-06,March,Dining out,Expense,Breakfast ,"30,000"
-Mar-06,March,Miscellaneous,Expense,Dan Nviri,"30,000"
-Mar-07,March,Repayment,Income,Deo,"250,000"
-Mar-07,March,Miscellaneous,Expense,Oyam Sacco,"100,000"
-Mar-07,March,Miscellaneous,Expense,Dress,"65,000"
-Mar-07,March,Groceries,Expense,Cooking Oil,"60,000"
-Mar-07,March,Health,Expense,Sheila Meds,"41,000"
-Mar-07,March,Miscellaneous,Expense,Boda,"19,000"
-Mar-07,March,Miscellaneous,Expense,Breakfast & Lunch,"17,000"
-Mar-07,March,Miscellaneous,Expense,Fitting Trousers,"8,000"
-Mar-07,March,Internet,Expense,internet,"6,000"
-Mar-08,March,Transport,Expense,Boda,"12,500"
-Mar-08,March,Groceries,Expense,Groceries,"37,000"
-Mar-09,March,Transport,Expense,Boda,"16,000"
-Mar-09,March,Miscellaneous,Expense,Breakfast & Lunch,"6,000"
-Mar-10,March,Transport,Expense,Boda,"16,000"
-Mar-10,March,Groceries,Expense,Breakfast ,"13,000"
-Mar-10,March,Miscellaneous,Expense,Coffee,"31,500"
-Mar-11,March,Transport,Expense,Boda,"17,000"
-Mar-11,March,Internet,Expense,Internet,"6,000"
-Mar-12,March,Miscellaneous,Expense,Mama,"31,500"
-Mar-12,March,Transport,Expense,Boda,"25,000"
-Mar-12,March,Transport,Expense,SafeCar,"35,000"
-Mar-12,March,Dining out,Expense,Lunch for for Princess,"20,000"
-Mar-12,March,Health,Expense,Med & Test,"23,000"
-Mar-12,March,Groceries,Expense,Groceries,"9,000"
-Mar-13,March,Transport,Expense,Boda,"7,000"
-Mar-14,March,Repayment,Income,Kerry,"150,000"
-Mar-14,March,Transport,Expense,Boda,"21,000"
-Mar-14,March,Internet,Expense,Internet,"6,000"
-Mar-14,March,Dining out,Expense,Lunch for for Princess,"16,000"
-Mar-14,March,Groceries,Expense,Groceries for Mama,"62,000"
-Mar-15,March,Transport,Expense,Boda,"9,000"
-Mar-15,March,Groceries,Expense,Groceries,"30,000"
-Mar-15,March,Health,Expense,Hair,"10,000"
-Mar-15,March,Miscellaneous,Expense,Lucky,"23,000"
-Mar-16,March,Transport,Expense,Boda,"26,500"
-Mar-16,March,Groceries,Expense,Groceries,"9,000"
-Mar-16,March,Dining out,Expense,Lunch for for Princess,"17,500"
-Mar-17,March,Internet,Expense,Internet,"9,400"
-Mar-17,March,Transport,Expense,Boda,"21,500"
-Mar-17,March,Groceries,Expense,Groceries,"16,500"
-Mar-18,March,Base Salary,Income,EC Salary,"600,000"
-Mar-18,March,Groceries,Expense,Groceries for Mama,"40,000"
-Mar-18,March,Groceries,Expense,Jolly,"20,000"
-Mar-18,March,Transport,Expense,Boda,"20,000"
-Mar-18,March,Groceries,Expense,Groceries for Joanita,"9,000"
-Mar-18,March,Dining out,Expense,Breakfast,"2,000"
-Mar-19,March,Base Salary,Income,NIRA Salary,"878,812"
-Mar-19,March,Dining out,Expense,Dinner + Cinema,"135,000"
-Mar-19,March,Transport,Expense,Uber,"45,000"
-Mar-19,March,Transport,Expense,Boda,"7,000"
-s,March,Groceries,Expense,Groceries,"36,000"
-Mar-20,March,Transport,Expense,Boda,"7,000"
-Mar-20,March,Transport,Expense,Mama,"21,500"
-Mar-20,March,Transport,Expense,Suzane,"21,500"
+Date,Month,Category,Type,Description,Amount,,,,,,,,,,,,,,,,,,
+Jan-01,January,Miscellaneous,Expense,Mama,"31,000",,,,,,,,,,,,,,,,,,
+Jan-01,January,Internet,Expense,Data,"6,000",,,,,,,,,,,,,,,,,,
+Jan-02,January,Groceries,Expense,Groceries,"15,000",,,,,,,,,,,,,,,,,,
+Jan-02,January,Internet,Expense,Data,"6,000",,,,,,,,,,,,,,,,,,
+Jan-02,January,Transport,Expense,Boda,"15,000",,,,,,,,,,,,,,,,,,
+Jan-02,January,Miscellaneous,Expense,Visit,"13,000",,,,,,,,,,,,,,,,,,
+Jan-03,January,Utilities,Expense,Boda,"16,000",,,,,,,,,,,,,,,,,,
+Jan-03,January,Transport,Expense,Taxi to Lira,"33,000",,,,,,,,,,,,,,,,,,
+Jan-03,January,Transport,Expense,Lunch,"12,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Condominium,Expense,Lodging,"30,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Transport,Expense,Taxi to Dokolo,"8,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Transport,Expense,Boda,"3,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Miscellaneous,Expense,Princess,"19,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Miscellaneous,Expense,Home,"33,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Miscellaneous,Expense,Holiver,"35,000",,,,,,,,,,,,,,,,,,
+Jan-04,January,Miscellaneous,Expense,Mama,"10,500",,,,,,,,,,,,,,,,,,
+Jan-04,January,Miscellaneous,Expense,Mama,"17,000",,,,,,,,,,,,,,,,,,
+Jan-05,January,Miscellaneous,Expense,Mama,"205,000",,,,,,,,,,,,,,,,,,
+Jan-05,January,Miscellaneous,Expense,Grinding Gnuts,"10,000",,,,,,,,,,,,,,,,,,
+Jan-05,January,Repayment,Income,Junior,"100,000",,,,,,,,,,,,,,,,,,
+Jan-05,January,Miscellaneous,Expense,Precillah,"20,000",,,,,,,,,,,,,,,,,,
+Jan-06,January,Transport,Expense,Taxi to Lira,"6,000",,,,,,,,,,,,,,,,,,
+Jan-06,January,Miscellaneous,Expense,Princess,"25,500",,,,,,,,,,,,,,,,,,
+Jan-06,January,Base Salary,Income,EC Salary,"1,398,000",,,,,,,,,,,,,,,,,,
+Jan-06,January,Base Salary,Income,EC Allowence,"720,000",,,,,,,,,,,,,,,,,,
+Jan-06,January,Dining out,Expense,Breakfast & Lunch,"24,000",,,,,,,,,,,,,,,,,,
+Jan-06,January,Transport,Expense,Boda,"5,000",,,,,,,,,,,,,,,,,,
+Jan-06,January,Miscellaneous,Expense,Fruits for Mama,"17,500",,,,,,,,,,,,,,,,,,
+Jan-07,January,Miscellaneous,Expense,Omogo Nation Savings,"101,000",,,,,,,,,,,,,,,,,,
+Jan-07,January,Miscellaneous,Expense,Faridah,"25,500",,,,,,,,,,,,,,,,,,
+Jan-07,January,Miscellaneous,Expense,Mama,"20,000",,,,,,,,,,,,,,,,,,
+Jan-07,January,Miscellaneous,Expense,Broker,"20,000",,,,,,,,,,,,,,,,,,
+Jan-07,January,Transport,Expense,Boda,"11,000",,,,,,,,,,,,,,,,,,
+Jan-07,January,Transport,Expense,Breakfast,"10,000",,,,,,,,,,,,,,,,,,
+Jan-07,January,Internet,Expense,Data,"10,000",,,,,,,,,,,,,,,,,,
+Jan-07,January,Dining out,Expense,Dinner,"4,000",,,,,,,,,,,,,,,,,,
+Jan-08,January,Condominium,Expense,Lodging,"50,000",,,,,,,,,,,,,,,,,,
+Jan-08,January,Transport,Expense,Boda,"6,000",,,,,,,,,,,,,,,,,,
+Jan-08,January,Dining out,Expense,Breakfast,"7,000",,,,,,,,,,,,,,,,,,
+Jan-08,January,Dining out,Expense,Lunch & Dinner,"11,500",,,,,,,,,,,,,,,,,,
+Jan-08,January,Health,Expense,Shaving,"5,000",,,,,,,,,,,,,,,,,,
+Jan-08,January,Transport,Expense,Uber,"30,000",,,,,,,,,,,,,,,,,,
+Jan-09,January,Base Salary,Income,EC Allowence,"620,000",,,,,,,,,,,,,,,,,,
+Jan-09,January,Miscellaneous,Expense,Joanita Cash,"250,000",,,,,,,,,,,,,,,,,,
+Jan-09,January,Miscellaneous,Expense,Joanita Meds,"6,500",,,,,,,,,,,,,,,,,,
+Jan-09,January,Groceries,Expense,Groceries,"43,000",,,,,,,,,,,,,,,,,,
+Jan-09,January,Health,Expense,Washing,"10,000",,,,,,,,,,,,,,,,,,
+Jan-09,January,Transport,Expense,Boda,"11,000",,,,,,,,,,,,,,,,,,
+Jan-09,January,Leisure,Expense,Leisure,"23,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Miscellaneous,Expense,Weekly Sacco Savings,"100,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Transport,Expense,Boda to park,"15,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Transport,Expense,Taxi to Lira,"40,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Dining out,Expense,Breakfast,"5,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Dining out,Expense,Lunch,"5,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Dining out,Expense,Dinner,"24,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Transport,Expense, Boda to Alebtong,"10,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Transport,Expense, Boda ,"7,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Health,Expense,Sponge,"3,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Dining out,Expense, Water,"4,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Utilities,Expense,Electricity,"15,000",,,,,,,,,,,,,,,,,,
+Jan-10,January,Groceries,Expense,Groceries,"6,000",,,,,,,,,,,,,,,,,,
+Jan-11,January,Miscellaneous,Expense,Mama,"127,500",,,,,,,,,,,,,,,,,,
+Jan-11,January,Miscellaneous,Expense,Princess,"103,000",,,,,,,,,,,,,,,,,,
+Jan-11,January,Transport,Expense,Boda,"4,000",,,,,,,,,,,,,,,,,,
+Jan-11,January,Internet,Expense,Data,"6,000",,,,,,,,,,,,,,,,,,
+Jan-11,January,Repayment,Income,Joanita,"21,000",,,,,,,,,,,,,,,,,,
+Jan-12,January,Repayment,Income,Joanita,"30,000",,,,,,,,,,,,,,,,,,
+Jan-12,January,Condominium,Expense,Lodging Lira,"50,000",,,,,,,,,,,,,,,,,,
+Jan-12,January,Transport,Expense,Boda,"4,000",,,,,,,,,,,,,,,,,,
+Jan-12,January,Dining out,Expense,Breakfast & Water,"8,000",,,,,,,,,,,,,,,,,,
+Jan-12,January,Utilities,Expense,NWSC Baba,"50,500",,,,,,,,,,,,,,,,,,
+Jan-12,January,Utilities,Expense,Gas,"45,500",,,,,,,,,,,,,,,,,,
+Jan-13,January,Leisure,Expense,Data,"5,000",,,,,,,,,,,,,,,,,,
+Jan-13,January,Transport,Expense,Boda,"3,000",,,,,,,,,,,,,,,,,,
+Jan-13,January,Dining out,Expense,Breakfast,"5,000",,,,,,,,,,,,,,,,,,
+Jan-13,January,Groceries,Expense,Groceries,"50,000",,,,,,,,,,,,,,,,,,
+Jan-13,January,Miscellaneous,Expense,Mahad,"10,000",,,,,,,,,,,,,,,,,,
+Jan-13,January,Miscellaneous,Expense,Brilliant,"137,000",,,,,,,,,,,,,,,,,,
+Jan-14,January,Base Salary,Income,NIRA Salary,"480,000",,,,,,,,,,,,,,,,,,
+Jan-14,January,Condominium,Expense,Lodge Lira,"25,000",,,,,,,,,,,,,,,,,,
+Jan-14,January,Condominium,Expense,Lodge Alebtong,"30,000",,,,,,,,,,,,,,,,,,
+Jan-14,January,Dining out,Expense,Breakfast,"5,000",,,,,,,,,,,,,,,,,,
+Jan-14,January,Transport,Expense,Boda,"5,000",,,,,,,,,,,,,,,,,,
+Jan-14,January,Dining out,Expense,Lunch,"9,000",,,,,,,,,,,,,,,,,,
+Jan-15,January,Condominium,Expense,Lodge Lira,"30,000",,,,,,,,,,,,,,,,,,
+Jan-15,January,Transport,Expense,Boda,"8,000",,,,,,,,,,,,,,,,,,
+Jan-15,January,Dining out,Expense,Lunch,"5,000",,,,,,,,,,,,,,,,,,
+Jan-15,January,Dining out,Expense,Water,"2,000",,,,,,,,,,,,,,,,,,
+Jan-15,January,Health,Expense,Meds,"2,000",,,,,,,,,,,,,,,,,,
+Jan-15,January,Health,Expense,Hankie,"2,000",,,,,,,,,,,,,,,,,,
+Jan-16,January,Condominium,Expense,Lodge Lira,"30,000",,,,,,,,,,,,,,,,,,
+Jan-17,January,Dining out,Expense,Water,"3,000",,,,,,,,,,,,,,,,,,
+Jan-17,January,Health,Expense,Meds,"2,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Internet,Expense,Data,"5,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Miscellaneous,Expense,Mercy,"15,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Miscellaneous,Expense,Mama,"20,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Miscellaneous,Expense,Pinky,"10,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Transport,Expense,Boda,"3,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Repayment,Income,Brilliant,"132,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Miscellaneous,Expense,Oyam Sacco,"50,000",,,,,,,,,,,,,,,,,,
+Jan-18,January,Miscellaneous,Expense,Joan,"50,000",,,,,,,,,,,,,,,,,,
+Jan-19,January,Miscellaneous,Expense,Bricks & Transport,"2,080,000",,,,,,,,,,,,,,,,,,
+Jan-20,January,Miscellaneous,Expense,Kukyala,"1,000,000",,,,,,,,,,,,,,,,,,
+Jan-20,January,Miscellaneous,Expense,Amuge Precillah,"30,000",,,,,,,,,,,,,,,,,,
+Jan-20,January,Miscellaneous,Expense,Shalom,"2,000",,,,,,,,,,,,,,,,,,
+Jan-20,January,Health,Expense,Nail cutter,"2,000",,,,,,,,,,,,,,,,,,
+Jan-21,January,Miscellaneous,Expense,Baba,"100,000",,,,,,,,,,,,,,,,,,
+Jan-21,January,Dining out,Expense,Lunch & Dinner,"27,000",,,,,,,,,,,,,,,,,,
+Jan-21,January,Groceries,Expense,Chicken,"92,000",,,,,,,,,,,,,,,,,,
+Jan-22,January,Miscellaneous,Expense,Princess,"41,000",,,,,,,,,,,,,,,,,,
+Jan-22,January,Internet,Expense,Data,"10,000",,,,,,,,,,,,,,,,,,
+Jan-22,January,Miscellaneous,Expense,Mama,"31,000",,,,,,,,,,,,,,,,,,
+Jan-23,January,Utilities,Expense,NWSC Naalya,"95,500",,,,,,,,,,,,,,,,,,
+Jan-23,January,Utilities,Expense,NWSC Mama,"54,500",,,,,,,,,,,,,,,,,,
+Jan-23,January,Condominium,Expense,Accomodation Alebtong,"50,000",,,,,,,,,,,,,,,,,,
+Jan-23,January,Groceries,Expense,Mama Charchol ,"39,000",,,,,,,,,,,,,,,,,,
+Jan-23,January,Miscellaneous,Expense,Visit Sarah,"36,000",,,,,,,,,,,,,,,,,,
+Jan-24,January,Miscellaneous,Expense,Lorna,"10,000",,,,,,,,,,,,,,,,,,
+Jan-24,January,Miscellaneous,Expense,Gloria,"5,000",,,,,,,,,,,,,,,,,,
+Jan-24,January,Miscellaneous,Expense,Aunt Tammy,"25,000",,,,,,,,,,,,,,,,,,
+Jan-24,January,Miscellaneous,Expense,Weekly Sacco Savings,"50,000",,,,,,,,,,,,,,,,,,
+Jan-24,January,Miscellaneous,Expense,Kukyala,"600,000",,,,,,,,,,,,,,,,,,
+Jan-25,January,Dining out,Expense,Lunch,"7,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Miscellaneous,Expense,Mama,"400,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Miscellaneous,Expense,Isaac,"450,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Miscellaneous,Expense,Innocent,"50,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Miscellaneous,Expense,Wheetbarrow,"55,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Dining out,Expense,Dinner & Car,"18,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Internet,Expense,Data,"5,000",,,,,,,,,,,,,,,,,,
+Jan-27,January,Base Salary,Income,EC Allowence,"300,000",,,,,,,,,,,,,,,,,,
+Jan-26,January,Condominium,Expense,Accomodation Alebtong,"50,000",,,,,,,,,,,,,,,,,,
+Jan-27,January,Transport,Expense,Car to Kla,"100,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Dining out,Expense,Eats,"5,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Miscellaneous,Expense,Amuge Precillah,"4,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Dining out,Expense,snacks,"5,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Transport,Expense,Boda,"10,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Dining out,Expense,Lunch,"26,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Miscellaneous,Expense,Kanzu,"160,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Miscellaneous,Expense,Shoes,"130,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Miscellaneous,Expense,Watch,"110,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Health,Expense,Hair,"15,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Health,Expense,Nails,"25,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Miscellaneous,Expense,Aspire USD Acc,"50,000",,,,,,,,,,,,,,,,,,
+Jan-28,January,Miscellaneous,Expense,Express Go Card ,"17,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Miscellaneous,Expense,Meds for Mama,"402,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Miscellaneous,Expense,Mama ,"103,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Health,Expense,Teeth ,"100,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Dining out,Expense,Phone Repair,"100,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Groceries,Expense,Groceries,"34,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Transport,Expense,Boda ,"24,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Dining out,Expense,Lunch ,"12,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Dining out,Expense,Water & juice,"7,000",,,,,,,,,,,,,,,,,,
+Jan-29,January,Internet,Expense,Data & Airtime ,"7,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Internet,Expense,Data & Airtime ,"41,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Side Hustle,Income,PITG,"1,750,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Bonus,Income,Deo,"100,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Bonus,Income,Don,"103,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Miscellaneous,Expense,Baba Power Connection,"215,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Health,Expense,Toothpaste & Soap,"1,000",,,,,,,,,,,,,,,,,,
+Jan-30,January,Transport,Expense,Boda ,"10,000",,,,,,,,,,,,,,,,,,
+Jan-31,January,Bonus,Income,Isaac Contributions,"1,000,000",,,,,,,,,,,,,,,,,,
+Jan-31,January,Miscellaneous,Expense,Meds for Uncle,"9,000",,,,,,,,,,,,,,,,,,
+Jan-31,January,Transport,Expense,Boda ,"5,000",,,,,,,,,,,,,,,,,,
+Jan-31,January,Miscellaneous,Expense,Bride Price,"4,000,000",,,,,,,,,,,,,,,,,,
+Jan-31,January,Miscellaneous,Expense,Kukyala,"6,235,000",,,,,,,,,,,,,,,,,,
+Feb-01,February,Transport,Expense,Boda ,"4,000",,,,,,,,,,,,,,,,,,
+Feb-01,February,Groceries,Expense,Groceries,"10,000",,,,,,,,,,,,,,,,,,
+Feb-01,February,Miscellaneous,Expense,Jimmy,"100,000",,,,,,,,,,,,,,,,,,
+Feb-02,February,Transport,Expense,Boda,"12,000",,,,,,,,,,,,,,,,,,
+Feb-02,February,Utilities,Expense,Bulb,"4,000",,,,,,,,,,,,,,,,,,
+Feb-02,February,Dining out,Expense,Dinner,"17,000",,,,,,,,,,,,,,,,,,
+Feb-03,February,Transport,Expense,Boda,"14,000",,,,,,,,,,,,,,,,,,
+Feb-03,February,Miscellaneous,Expense,Omogo Nation Savings,"100,000",,,,,,,,,,,,,,,,,,
+Feb-03,January,Side Hustle,Income,Interest from Innocent,"400,000",,,,,,,,,,,,,,,,,,
+Feb-04,February,Transport,Expense,Boda,"13,000",,,,,,,,,,,,,,,,,,
+Feb-04,February,Dining out,Expense,Dinner,"17,000",,,,,,,,,,,,,,,,,,
+Feb-05,February,Transport,Expense,Boda,"13,500",,,,,,,,,,,,,,,,,,
+Feb-05,February,Groceries,Expense,Groceries,"12,000",,,,,,,,,,,,,,,,,,
+Feb-03,February,Bonus,Income,James Tumwiine,"100,000",,,,,,,,,,,,,,,,,,
+Feb-06,February,Transport,Expense,Boda,"14,000",,,,,,,,,,,,,,,,,,
+Feb-06,February,Dining out,Expense,breakfast & lunch,"2,000",,,,,,,,,,,,,,,,,,
+Feb-06,February,Miscellaneous,Expense,Mama,"31,000",,,,,,,,,,,,,,,,,,
+Feb-06,February,Dining out,Expense,Dinner,"63,000",,,,,,,,,,,,,,,,,,
+Feb-07,February,Dining out,Expense,Dinner,"126,000",,,,,,,,,,,,,,,,,,
+Feb-07,February,Transport,Expense,Uber,"26,000",,,,,,,,,,,,,,,,,,
+Feb-07,February,Transport,Expense,Boda,"11,000",,,,,,,,,,,,,,,,,,
+Feb-07,February,Miscellaneous,Expense,Oyam Sacco,"15,000",,,,,,,,,,,,,,,,,,
+Feb-07,February,Miscellaneous,Expense,Princess,"12,000",,,,,,,,,,,,,,,,,,
+Feb-07,February,Internet,Expense,Data,"10,000",,,,,,,,,,,,,,,,,,
+Feb-08,February,Groceries,Expense,Groceries,"24,000",,,,,,,,,,,,,,,,,,
+Feb-08,February,Transport,Expense,Boda,"7,500",,,,,,,,,,,,,,,,,,
+Feb-08,February,Miscellaneous,Expense,Sauti Get Together,"200,000",,,,,,,,,,,,,,,,,,
+Feb-09,February,Side Hustle,Income,PITG,"1,750,000",,,,,,,,,,,,,,,,,,
+Feb-09,February,Miscellaneous,Expense,Mama,"128,500",,,,,,,,,,,,,,,,,,
+Feb-09,February,Transport,Expense,Boda,"18,500",,,,,,,,,,,,,,,,,,
+Feb-09,February,Groceries,Expense,Groceries,"10,000",,,,,,,,,,,,,,,,,,
+Feb-09,February,Transport,Expense,Cab,"26,000",,,,,,,,,,,,,,,,,,
+Feb-10,February,Transport,Expense,Boda,"14,000",,,,,,,,,,,,,,,,,,
+Feb-10,February,Miscellaneous,Expense,School Fees,"227,250",,,,,,,,,,,,,,,,,,
+Feb-10,February,Groceries,Expense,Groceries,"10,000",,,,,,,,,,,,,,,,,,
+Feb-11,February,Transport,Expense,Boda,"15,000",,,,,,,,,,,,,,,,,,
+Feb-12,February,Transport,Expense,Boda,"15,500",,,,,,,,,,,,,,,,,,
+Feb-12,February,Groceries,Expense,Groceries,"29,000",,,,,,,,,,,,,,,,,,
+Feb-13,February,Internet,Expense,Data,"5,000",,,,,,,,,,,,,,,,,,
+Feb-13,February,Transport,Expense,Boda,"29,000",,,,,,,,,,,,,,,,,,
+Feb-13,February,Miscellaneous,Expense,Mercy,"21,000",,,,,,,,,,,,,,,,,,
+Feb-13,February,Health,Expense,Triming Hair,"15,000",,,,,,,,,,,,,,,,,,
+Feb-14,February,Dining out,Expense,Dinner,"90,000",,,,,,,,,,,,,,,,,,
+Feb-14,February,Transport,Expense,Boda,"10,000",,,,,,,,,,,,,,,,,,
+Feb-15,February,Groceries,Expense,Groceries,"16,000",,,,,,,,,,,,,,,,,,
+Feb-15,February,Transport,Expense,Boda,"7,000",,,,,,,,,,,,,,,,,,
+Feb-15,February,Internet,Expense,Data,"5,000",,,,,,,,,,,,,,,,,,
+Feb-16,February,Transport,Expense,Boda,"7,500",,,,,,,,,,,,,,,,,,
+Feb-16,February,Groceries,Expense,Groceries,"23,000",,,,,,,,,,,,,,,,,,
+Feb-16,February,Miscellaneous,Expense,Emma Alebtong,"150,000",,,,,,,,,,,,,,,,,,
+Feb-17,February,Bonus,Income,Ivan,"60,000",,,,,,,,,,,,,,,,,,
+Feb-17,February,Transport,Expense,Boda,"11,000",,,,,,,,,,,,,,,,,,
+Feb-17,February,Dining out,Expense,Dinner,"15,000",,,,,,,,,,,,,,,,,,
+Feb-17,February,Dining out,Expense,Breakfast,"2,000",,,,,,,,,,,,,,,,,,
+Feb-17,February,Internet,Expense,Data,"5,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Repayment,Income,Sarah ,"1,000,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Base Salary,Income,NIRA Salary,"920,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Miscellaneous,Expense,Sand,"720,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Miscellaneous,Expense,Coffee,"200,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Health,Expense,SafeBoda to Hospital,"30,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Dining out,Expense,Breakfast & Dinner,"3,000",,,,,,,,,,,,,,,,,,
+Feb-18,February,Transport,Expense,Boda,"12,000",,,,,,,,,,,,,,,,,,
+Feb-19,February,Miscellaneous,Expense,Sheila School Requirements,"206,000",,,,,,,,,,,,,,,,,,
+Feb-19,February,Transport,Expense,Boda,"21,000",,,,,,,,,,,,,,,,,,
+Feb-19,February,Dining out,Expense,Dinner,"40,000",,,,,,,,,,,,,,,,,,
+Feb-19,February,Health,Expense,Washing,"16,500",,,,,,,,,,,,,,,,,,
+Feb-19,February,Dining out,Expense,Breakfast ,"2,000",,,,,,,,,,,,,,,,,,
+Feb-19,February,Utilities,Expense,Bulb,"8,000",,,,,,,,,,,,,,,,,,
+Feb-19,February,Transport,Expense,Boda,"6,000",,,,,,,,,,,,,,,,,,
+Feb-20,February,Transport,Expense,Boda,"10,000",,,,,,,,,,,,,,,,,,
+Feb-20,February,Dining out,Expense,Breakfast + Lunch + Dinner,"22,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Repayment,Income,Isaac,"10,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Repayment,Income,Joanita,"60,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Repayment,Income,Joanita,"40,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Repayment,Income,Joanita,"200,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Transport,Expense,Boda,"10,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Groceries,Expense,Groceries,"44,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Miscellaneous,Expense,Jimmy,"100,000",,,,,,,,,,,,,,,,,,
+Feb-22,February,Groceries,Expense,Groceries,"8,500",,,,,,,,,,,,,,,,,,
+Feb-22,February,Transport,Expense,Boda,"8,000",,,,,,,,,,,,,,,,,,
+Feb-22,February,Health,Expense,Cleaning,"5,000",,,,,,,,,,,,,,,,,,
+Feb-21,February,Investments,Income,Trees,"40,000",,,,,,,,,,,,,,,,,,
+Feb-23,February,Miscellaneous,Expense,Lucky ,"26,000",,,,,,,,,,,,,,,,,,
+Feb-23,February,Transport,Expense,Boda,"6,000",,,,,,,,,,,,,,,,,,
+Feb-23,February,Miscellaneous,Expense,Okello,"5,000",,,,,,,,,,,,,,,,,,
+Feb-23,February,Base Salary,Income,UCC,"4,100,000",,,,,,,,,,,,,,,,,,
+Feb-23,February,Miscellaneous,Expense,Jireh,"103,000",,,,,,,,,,,,,,,,,,
+Feb-23,February,Miscellaneous,Expense,Mamito,"31,500",,,,,,,,,,,,,,,,,,
+Feb-24,February,Transport,Expense,Boda,"12,500",,,,,,,,,,,,,,,,,,
+Feb-24,February,Dining out,Expense,Breakfast + Dinner,"6,000",,,,,,,,,,,,,,,,,,
+Feb-24,February,Miscellaneous,Expense,MM + Bank harges,"9,000",,,,,,,,,,,,,,,,,,
+Feb-24,February,Transport,Expense,Boda,"6,000",,,,,,,,,,,,,,,,,,
+Feb-25,February,Transport,Expense,Boda,"15,000",,,,,,,,,,,,,,,,,,
+Feb-25,February,Dining out,Expense,Breakfast + Dinner,"15,000",,,,,,,,,,,,,,,,,,
+Feb-25,February,Health,Expense,Work out attair,"45,000",,,,,,,,,,,,,,,,,,
+Feb-26,February,Internet,Expense,internet,"5,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Side Hustle,Income,Interest from Innocent,"400,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Miscellaneous,Expense,Joanita Loan,"5,000,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Condominium,Expense,Rent Feb,"400,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Miscellaneous,Expense,Princess Allowence,"200,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Miscellaneous,Expense,Brenda refund,"200,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Miscellaneous,Expense,Oyam Sacco,"200,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Miscellaneous,Expense,"Mahad, Tony Brenda","30,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Transport,Expense,Boda,"15,000",,,,,,,,,,,,,,,,,,
+Feb-27,February,Internet,Expense,internet,"6,000",,,,,,,,,,,,,,,,,,
+Feb-28,February,Dining out,Expense,Lunch,"30,000",,,,,,,,,,,,,,,,,,
+Mar-01,March,Groceries,Expense,Groceries,"30,000",,,,,,,,,,,,,,,,,,
+Mar-01,March,Transport,Expense,Boda,"10,000",,,,,,,,,,,,,,,,,,
+Mar-01,March,Health,Expense,Shaving,"10,000",,,,,,,,,,,,,,,,,,
+Mar-01,March,Miscellaneous,Expense,Bricks,"165,000",,,,,,,,,,,,,,,,,,
+Mar-02,March,Groceries,Expense,Groceries,"51,000",,,,,,,,,,,,,,,,,,
+Mar-02,March,Transport,Expense,Boda,"21,000",,,,,,,,,,,,,,,,,,
+Mar-03,March,Base Salary,Income,Arreas,"2,796,000",,,,,,,,,,,,,,,,,,
+Mar-03,March,Miscellaneous,Expense,Sauti Stamp,"45,000",,,,,,,,,,,,,,,,,,
+Mar-03,March,Transport,Expense,Boda,"15,000",,,,,,,,,,,,,,,,,,
+Mar-04,March,Dining out,Expense,Lunch for for Princess,"50,000",,,,,,,,,,,,,,,,,,
+Mar-04,March,Miscellaneous,Expense,Brenda refund,"9,500",,,,,,,,,,,,,,,,,,
+Mar-04,March,Miscellaneous,Expense,Musa,"10,500",,,,,,,,,,,,,,,,,,
+Mar-04,March,Transport,Expense,Boda,"17,000",,,,,,,,,,,,,,,,,,
+Mar-05,March,Transport,Expense,Boda,"14,000",,,,,,,,,,,,,,,,,,
+Mar-06,March,Utilities,Expense,Electricity,"16,000",,,,,,,,,,,,,,,,,,
+Mar-06,March,Transport,Expense,Boda,"17,000",,,,,,,,,,,,,,,,,,
+Mar-06,March,Dining out,Expense,Breakfast ,"30,000",,,,,,,,,,,,,,,,,,
+Mar-06,March,Miscellaneous,Expense,Dan Nviri,"30,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Repayment,Income,Deo,"250,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Miscellaneous,Expense,Oyam Sacco,"100,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Miscellaneous,Expense,Dress,"65,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Groceries,Expense,Cooking Oil,"60,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Health,Expense,Sheila Meds,"41,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Miscellaneous,Expense,Boda,"19,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Miscellaneous,Expense,Breakfast & Lunch,"17,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Miscellaneous,Expense,Fitting Trousers,"8,000",,,,,,,,,,,,,,,,,,
+Mar-07,March,Internet,Expense,internet,"6,000",,,,,,,,,,,,,,,,,,
+Mar-08,March,Transport,Expense,Boda,"12,500",,,,,,,,,,,,,,,,,,
+Mar-08,March,Groceries,Expense,Groceries,"37,000",,,,,,,,,,,,,,,,,,
+Mar-09,March,Transport,Expense,Boda,"16,000",,,,,,,,,,,,,,,,,,
+Mar-09,March,Miscellaneous,Expense,Breakfast & Lunch,"6,000",,,,,,,,,,,,,,,,,,
+Mar-10,March,Transport,Expense,Boda,"16,000",,,,,,,,,,,,,,,,,,
+Mar-10,March,Groceries,Expense,Breakfast ,"13,000",,,,,,,,,,,,,,,,,,
+Mar-10,March,Miscellaneous,Expense,Coffee,"31,500",,,,,,,,,,,,,,,,,,
+Mar-11,March,Transport,Expense,Boda,"17,000",,,,,,,,,,,,,,,,,,
+Mar-11,March,Internet,Expense,Internet,"6,000",,,,,,,,,,,,,,,,,,
+Mar-12,March,Miscellaneous,Expense,Mama,"31,500",,,,,,,,,,,,,,,,,,
+Mar-12,March,Transport,Expense,Boda,"25,000",,,,,,,,,,,,,,,,,,
+Mar-12,March,Transport,Expense,SafeCar,"35,000",,,,,,,,,,,,,,,,,,
+Mar-12,March,Dining out,Expense,Lunch for for Princess,"20,000",,,,,,,,,,,,,,,,,,
+Mar-12,March,Health,Expense,Med & Test,"23,000",,,,,,,,,,,,,,,,,,
+Mar-12,March,Groceries,Expense,Groceries,"9,000",,,,,,,,,,,,,,,,,,
+Mar-13,March,Transport,Expense,Boda,"7,000",,,,,,,,,,,,,,,,,,
+Mar-14,March,Repayment,Income,Kerry,"150,000",,,,,,,,,,,,,,,,,,
+Mar-14,March,Transport,Expense,Boda,"21,000",,,,,,,,,,,,,,,,,,
+Mar-14,March,Internet,Expense,Internet,"6,000",,,,,,,,,,,,,,,,,,
+Mar-14,March,Dining out,Expense,Lunch for for Princess,"16,000",,,,,,,,,,,,,,,,,,
+Mar-14,March,Groceries,Expense,Groceries for Mama,"62,000",,,,,,,,,,,,,,,,,,
+Mar-15,March,Transport,Expense,Boda,"9,000",,,,,,,,,,,,,,,,,,
+Mar-15,March,Groceries,Expense,Groceries,"30,000",,,,,,,,,,,,,,,,,,
+Mar-15,March,Health,Expense,Hair,"10,000",,,,,,,,,,,,,,,,,,
+Mar-15,March,Miscellaneous,Expense,Lucky,"23,000",,,,,,,,,,,,,,,,,,
+Mar-16,March,Transport,Expense,Boda,"26,500",,,,,,,,,,,,,,,,,,
+Mar-16,March,Groceries,Expense,Groceries,"9,000",,,,,,,,,,,,,,,,,,
+Mar-16,March,Dining out,Expense,Lunch for for Princess,"17,500",,,,,,,,,,,,,,,,,,
+Mar-17,March,Internet,Expense,Internet,"9,400",,,,,,,,,,,,,,,,,,
+Mar-17,March,Transport,Expense,Boda,"21,500",,,,,,,,,,,,,,,,,,
+Mar-17,March,Groceries,Expense,Groceries,"16,500",,,,,,,,,,,,,,,,,,
+Mar-18,March,Base Salary,Income,EC Salary,"600,000",,,,,,,,,,,,,,,,,,
+Mar-18,March,Groceries,Expense,Groceries for Mama,"40,000",,,,,,,,,,,,,,,,,,
+Mar-18,March,Groceries,Expense,Jolly,"20,000",,,,,,,,,,,,,,,,,,
+Mar-18,March,Transport,Expense,Boda,"20,000",,,,,,,,,,,,,,,,,,
+Mar-18,March,Groceries,Expense,Groceries for Joanita,"9,000",,,,,,,,,,,,,,,,,,
+Mar-18,March,Dining out,Expense,Breakfast,"2,000",,,,,,,,,,,,,,,,,,
+Mar-19,March,Base Salary,Income,NIRA Salary,"878,812",,,,,,,,,,,,,,,,,,
+Mar-19,March,Dining out,Expense,Dinner + Cinema,"135,000",,,,,,,,,,,,,,,,,,
+Mar-19,March,Transport,Expense,Uber,"45,000",,,,,,,,,,,,,,,,,,
+Mar-19,March,Transport,Expense,Boda,"7,000",,,,,,,,,,,,,,,,,,
+Mar-20,March,Groceries,Expense,Groceries,"36,000",,,,,,,,,,,,,,,,,,
+Mar-20,March,Transport,Expense,Boda,"7,000",,,,,,,,,,,,,,,,,,
+Mar-20,March,Transport,Expense,Mama,"21,500",,,,,,,,,,,,,,,,,,
+Mar-20,March,Transport,Expense,Suzane,"21,500",,,,,,,,,,,,,,,,,,
+Mar-21,March,Miscellaneous,Expense,Lucy,"21,000",,,,,,,,,,,,,,,,,,
+Mar-21,March,Dining out,Expense,Mama,"13,500",,,,,,,,,,,,,,,,,,
+Mar-21,March,Transport,Expense,Boda,"5,000",,,,,,,,,,,,,,,,,,
+Mar-22,March,Transport,Expense,Boda,"14,000",,,,,,,,,,,,,,,,,,
+Mar-22,March,Transport,Expense,Lunch,"12,000",,,,,,,,,,,,,,,,,,
+Mar-22,March,Transport,Expense,Soap,"6,000",,,,,,,,,,,,,,,,,,
