@@ -194,10 +194,6 @@ on:
 ```
 
 To view the workflow runs go to the **Actions** tab on GitHub.
-
----
-
-## 👤 Author
 ---
 ## 👤 Author
 
@@ -208,4 +204,4 @@ To view the workflow runs go to the **Actions** tab on GitHub.
 
 ## 📄 License
 
-This project is for personal and educational use.
+This project is for educational use.
