@@ -180,6 +180,25 @@ git push origin main
 
 ---
 
+---
+## ⚙️ Automation
+
+### Keep Alive — GitHub Actions
+The app is kept alive automatically using a GitHub Actions workflow that pings the Streamlit app every day at 8am UTC.
+```yaml
+name: Keep Alive
+on:
+  schedule:
+    - cron: "0 8 * * *"  # every day at 8am UTC
+  workflow_dispatch:
+```
+
+To view the workflow runs go to the **Actions** tab on GitHub.
+
+---
+
+## 👤 Author
+---
 ## 👤 Author
 
 **Norman Angel**
