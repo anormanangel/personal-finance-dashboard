@@ -1,0 +1,16 @@
+name: Keep Alive
+
+on:
+  schedule:
+    - cron: "0 5 * * *"  # 8am Uganda time (EAT = UTC+3)
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit App
+        run: curl -s https://personal-finance-2026.streamlit.app/ > /dev/null
+
+      - name: Log success
+        run: echo "App pinged successfully at $(date)"
