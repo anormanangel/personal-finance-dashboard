@@ -1,4 +1,4 @@
-# 💰 Personal Finance Dashboard
+# 💰 Personal Finance Data Engineering Pipeline
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://personal-finance-2026.streamlit.app/)
 
