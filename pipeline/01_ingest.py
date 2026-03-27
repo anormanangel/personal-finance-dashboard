@@ -21,9 +21,17 @@ def ingest():
     df = pd.read_csv(SOURCE_FILE)
     logging.info(f"INGEST: {len(df)} rows read from '{SOURCE_FILE}'")
 
-    # Save to data lake with timestamp in EAT
+    # Create data lake folder if it doesn't exist
     os.makedirs(LAKE_PATH, exist_ok=True)
-    eat_time = datetime.now(ZoneInfo("Africa/Nairobi"))
+
+    # Delete old files in data lake — keep only latest
+    for old_file in os.listdir(LAKE_PATH):
+        if old_file.endswith(".csv"):
+            os.remove(os.path.join(LAKE_PATH, old_file))
+            logging.info(f"INGEST: Deleted old file → {old_file}")
+
+    # Save new file with EAT timestamp
+    eat_time  = datetime.now(ZoneInfo("Africa/Nairobi"))
     timestamp = eat_time.strftime("%Y%m%d_%H%M%S")
     filename  = f"Input_{timestamp}.csv"
     filepath  = os.path.join(LAKE_PATH, filename)
