@@ -154,24 +154,24 @@ if page == "Income & Expenses":
     c1, c2, c3, c4 = st.columns(4)
 
     with c1:
-        #st.metric("Total Income", f"UGX {total_income:,.0f}")
-        st.metric("Total Income", f"UGX {total_income/1_000_000:.2f}M")
+        st.metric("Total Income", f"UGX {total_income:,.0f}")
+        #st.metric("Total Income", f"UGX {total_income/1_000_000:.2f}M")
         st.caption("All income in current filtered view")
 
     with c2:
-        #st.metric("Total Expense", f"UGX {total_expense:,.0f}")
-        st.metric("Total Expense", f"UGX {total_expense/1_000_000:.2f}M")
+        st.metric("Total Expense", f"UGX {total_expense:,.0f}")
+        #st.metric("Total Expense", f"UGX {total_expense/1_000_000:.2f}M")
         st.caption("All expenses in current filtered view")
 
     with c3:
-        #st.metric("Net Balance", f"UGX {net_balance:,.0f}")
-        st.metric("Net Balance", f"UGX {net_balance/1_000_000:.2f}M")
+        st.metric("Net Balance", f"UGX {net_balance:,.0f}")
+        #st.metric("Net Balance", f"UGX {net_balance/1_000_000:.2f}M")
         st.caption("Income minus expenses")
 
     with c4:
         st.metric("Transactions", f"{total_transactions:,}")
-        #st.caption(f"Average amount: UGX {avg_transaction:,.0f}")
-        st.caption(f"Average: UGX {avg_transaction/1_000_000:.2f}M")
+        st.caption(f"Average amount: UGX {avg_transaction:,.0f}")
+        #st.caption(f"Average: UGX {avg_transaction/1_000_000:.2f}M")
 
     st.divider()
 
