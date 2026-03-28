@@ -62,7 +62,7 @@ personal-finance-dashboard/
 │
 ├── .github/
 │   └── workflows/
-│       └── main.yml                ← GitHub Actions keep alive workflow
+│       └── keep_alive.yml                ← GitHub Actions keep alive workflow
 │
 ├── data_lake/
 │   └── raw/
@@ -214,8 +214,8 @@ To view the workflow runs go to the **Actions** tab on GitHub.
 **Norman Angel**
 
 [![GitHub](https://img.shields.io/badge/GitHub-anormanangel-181717?style=flat&logo=github)](https://github.com/anormanangel)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Norman%20Angel-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/normanangel)
-[![Substack](https://img.shields.io/badge/Substack-Learning%20in%20Public-FF6719?style=flat&logo=substack)](https://substack.com/@normanangel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Norman%20Angel-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/anormanangel)
+[![Substack](https://img.shields.io/badge/Substack-Learning%20in%20Public-FF6719?style=flat&logo=substack)](https://substack.com/@anormanangel)
 
 ---
 
