@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import sqlite3
 
 st.set_page_config(
-    page_title="Finance Dashbaord",
+    page_title="Personal Finance Dashbaord",
     layout="wide",
     page_icon="💰",
     initial_sidebar_state="expanded"
