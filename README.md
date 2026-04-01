@@ -1,14 +1,14 @@
 # 💰 Personal Finance Data Engineering Pipeline
 
+---
+
+## 📌 Project Overview
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://personal-finance-2026.streamlit.app/)
 
 A full end-to-end personal finance data engineering project — from raw CSV data through a local data pipeline to an interactive Streamlit dashboard.
 
 🔗 **Live Demo:** [https://personal-finance-2026.streamlit.app/](https://personal-finance-2026.streamlit.app/)
-
----
-
-## 📌 Project Overview
 
 This project tracks personal income and expenses across categories and months. It implements a real data engineering pipeline that ingests raw data, stores it in a local data lake, moves it to a data warehouse, transforms it for analysis, and visualises it in an interactive dashboard.
 
