@@ -16,6 +16,23 @@ The goal was to apply data engineering concepts — data lake, data warehouse, E
 
 ---
 
+## 📌 Problem Statement
+
+Managing personal finances is often fragmented, manual, and lacks visibility. Individuals typically rely on scattered spreadsheets, mobile apps, or raw transaction logs that do not provide a structured, end-to-end view of their financial behavior.
+
+This creates several challenges:
+
+Lack of centralized data — financial records are stored in inconsistent formats across different tools
+Limited analytical insights — difficulty in tracking spending patterns, income trends, and savings behavior over time
+Manual data handling — repetitive cleaning and aggregation of data increases the risk of errors
+No scalable data pipeline — most personal finance tracking solutions do not simulate real-world data engineering workflows
+
+As a result, individuals are unable to make data-driven financial decisions or apply modern data engineering practices to personal datasets.
+
+This project addresses these gaps by building a structured, end-to-end data pipeline that transforms raw financial data into clean, analyzable, and visual insights through a data lake, warehouse, and interactive dashboard.
+
+---
+
 ## 🏗️ Architecture & Pipeline
 
 ```
